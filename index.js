@@ -21,9 +21,9 @@ function nowServing(katzDeliLine) {
   }
 
   function currentLine(katzDeliLine) {
-    var key = katzDeliLine.indexOf(name);
     if (katzDeliLine.length > 0) {
-      return `The line is currently:${key} + ${[katzDeliLine]}}`;
+      for (i = 0; i < katzDeliLine.length; i++)
+      return `The line is currently:${i+1} + ${katzDeliLine}`;
     } else {
       return "The line is currently empty.";
   }
