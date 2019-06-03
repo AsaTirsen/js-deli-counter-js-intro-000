@@ -9,7 +9,7 @@ function takeANumber(katzDeliLine, name) {
   return array;
 }
 
-function nowServing(katzDeliLine) {
+function nowServing() {
   var i = 0;
   var name = katzDeliLine.shift();
     if (katzDeliLine.length > 0) {
@@ -19,3 +19,18 @@ function nowServing(katzDeliLine) {
       return "There is nobody waiting to be served!";
     }
   }
+
+function currentLine() {
+  var i = 0;
+  var name = 
+
+
+
+  
+}
+
+
+
+
+
+
