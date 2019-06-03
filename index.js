@@ -9,7 +9,7 @@ function takeANumber(katzDeliLine, name) {
   return array;
 }
 
-function nowServing() {
+function nowServing(katzDeliLine) {
   var i = 0;
   var name = katzDeliLine.shift();
     if (katzDeliLine.length > 0) {
