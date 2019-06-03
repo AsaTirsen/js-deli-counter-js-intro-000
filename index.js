@@ -20,11 +20,3 @@ function nowServing() {
     }
   }
 
-function currentLine() {
-  var i = 0;
-  var name = 
-
-
-
-
-}
