@@ -23,7 +23,7 @@ function nowServing(katzDeliLine) {
   function currentLine(katzDeliLine) {
     var key = katzDeliLine.indexOf(name);
     if (katzDeliLine.length > 0) {
-      return `The line is currently:${key + [katzDeliLine] + ". "}`;
+      return `The line is currently:${key} + ${[katzDeliLine]}}`;
     } else {
       return "The line is currently empty.";
   }
