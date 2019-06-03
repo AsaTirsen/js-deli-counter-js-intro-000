@@ -22,9 +22,9 @@ function nowServing(katzDeliLine) {
 
   function currentLine(katzDeliLine) {
     var i = 0;
+    var array = [];
     if (katzDeliLine.length > 0) {
       for (i = 0; i < katzDeliLine.length; i++) {
-        var array = [];
         array.push(`${i+1}. ${katzDeliLine[i]}`)
     } return `The line is currently: ${array}`;
   }
